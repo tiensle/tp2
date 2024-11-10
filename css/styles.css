@@ -1,6 +1,5 @@
 body, html {
-    margin: 0;
-    padding: 0;
+    
     width: 100%;
     height: 100%;
   }
@@ -12,8 +11,6 @@ body, html {
 
 .grille{grid-template-columns: 70% 30%;
     display: grid;
-    width: 100vw;
-    height: 100vh;
     background-color: grey;
     grid-template-rows: 50px 400px 50px;
     grid-template-areas:
