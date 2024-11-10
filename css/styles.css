@@ -1,133 +1,165 @@
 body, html {
+    
     width: 100%;
     height: 100%;
-    font-size: 150%; /* Augmente la taille de base du texte de 1,5 fois */
-}
+  }
 
-.grille {
+
+
+
+
+
+.grille{grid-template-columns: 70% 30%;
     display: grid;
     background-color: grey;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 50px 1fr 50px;
-    width: 100%;
+    grid-template-rows: 1fr 10fr 1fr;
+    width:100%;
     height: 100%;
     grid-template-areas:
-        "header header"
-        "main aside"
-        "footer footer";
-}
+            "header header"
+            "main aside"
+            "footer footer";
 
-.grillenav {
+}
+.grillenav{
     display: grid;
     width: 100%;
     height: 100%;
     grid-template-columns: 1.8fr 1fr 1fr 8fr 2fr 1fr 1fr;
     grid-template-rows: 100%;
     grid-template-areas:
-        "darquest wow fallout knapsak moncegep kb2 montp1";
-    font-size: 1.5em; /* Augmente la taille du texte dans la grille de navigation */
+            "darquest wow fallout knapsak moncegep kb2 montp1"
+
+
+
+}
+#darquest{
+grid-area: darquest;
+padding-left:1em;
+
+}
+#wow{
+grid-area: wow;
+}
+#fallout{
+
+grid-area: fallout;
+}
+#knapsak{
+grid-area: knapsak;
+text-align: left;
+
+}
+#moncegep{
+
+grid-area: moncegep;
+}
+#kb2{
+grid-area: kb2;
+
+
+
+}
+#montp1{
+grid-area:montp1;
+
+
 }
 
-#darquest, #wow, #fallout, #knapsak, #moncegep, #kb2, #montp1 {
-    font-size: 1.5em; /* Augmente la taille du texte dans ces éléments */
-}
+.p{
+    font-family: inherit;
+   font-size:10.8px;
+   transform: scale(1, 1.2);
+   font-weight: inherit;
+   
+   margin: 30px,10px,0px;
+   padding-bottom: 0px;
+   padding-left:1em;
+   color: black;
+   }
+   
 
-header {
-    grid-area: header;
-    background-color: black;
+
+
+
+
+header{grid-area: header;
+background-color: black;
+color: white;}
+
+main{grid-area: main;
+background-color: #F5F5F5;
+overflow-y: auto;
+color: white;}
+
+footer{grid-area:footer;
+background-color:grey;
+color: white;}
+aside{grid-area:aside;
+    background-color:#33BFFF;
     color: white;
-    font-size: 1.5em; /* Augmente la taille du texte dans l'entête */
-}
-
-main {
-    grid-area: main;
-    background-color: #F5F5F5;
     overflow-y: auto;
-    color: white;
-    font-size: 1.5em; /* Augmente la taille du texte dans le main */
-}
 
-footer {
-    grid-area: footer;
-    background-color: grey;
-    color: white;
-    font-size: 1.5em; /* Augmente la taille du texte dans le footer */
-}
 
-aside {
-    grid-area: aside;
-    background-color: #33BFFF;
-    color: white;
-    overflow-y: auto;
-    font-size: 1.5em; /* Augmente la taille du texte dans l'aside */
 }
+.h1{
 
-.h1 {
-    color: black;
-    font-size: 1.5em; /* Augmenter la taille du texte du titre */
-    padding-top: 0%;
-    padding-left: 10px;
-    margin-top: 0%;
+    color:black; font-size: 25px; padding-top: 0%; padding-left:10px; margin-top: 0%;
 }
-
-.image {
-    max-width: 480px;
-    margin: auto;
-    max-height: 240px; /* Augmenter la taille des images de façon modérée */
+.image{
+ max-width:320px;
+ margin:auto;
+max-height:160px;
 }
-
-.figure {
-    background-color: white;
+.figure{background-color: white;
     border: solid black 1px;
     padding: 10px;
-    height: fit-content;
-    float: left;
-    margin-left: 1em;
+  height:fit-content;
+    float:left;
+    margin-left:1em;
     margin-top: 0px;
-    margin-right: 1em;
-}
+    margin-right:1em;
 
-figcaption {
-    color: black;
-    font-size: 1.5em; /* Augmenter la taille du texte dans les légendes des images */
 }
+figcaption{
 
-article {
-    font-size: 1.5em; /* Augmenter la taille du texte dans les articles */
-    font-style: inherit;
-    color: black;
-    margin-top: 1em;
+    color:black;
 }
+article{
+font-size: inherit;
+font-style: inherit;
+color:black;
+margin-top:1em;
 
-#articlep {
-    font-size: 1.5em; /* Augmenter la taille du texte dans l'article spécifique */
-    font-weight: 540;
-    transform: scale(1, 1.4);
+
 }
+#articlep{
+font-size: 10px;
+font-weight:540;
+transform: scale(1,1.4);
 
-h2 {
-    color: black;
-    font-size: 1.5em; /* Augmenter la taille du texte des sous-titres */
-    margin: 0px;
-    padding: 0.5em;
 }
-
-ul, li {
-    color: black;
-    list-style-type: disc;
-    font-size: 1.5em; /* Augmenter la taille du texte dans les listes */
+h2{color: black;
+    font-size:large;
+    margin:0px;
+    padding:0.5em
 }
+ul,li{
+color: black;
+list-style-type: disc;
+font-size:11px;
 
+}
 .lienchangepas {
-    color: inherit;
-    text-decoration: none;
+    color: inherit; 
+    text-decoration: none; 
 }
 
-.lienchangepas:visited {
-    color: inherit;
+.lienchangepas:visited{
+    color: inherit; 
 }
 
 .lienchangepas:hover,
 .lienchangepas:focus {
-    color: inherit;
+    color: inherit; 
 }
