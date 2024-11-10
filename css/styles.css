@@ -163,7 +163,3 @@ font-size:11px;
 .lienchangepas:focus {
     color: inherit; 
 }
-main, aside {
-    min-height: 200px;
-  
-}
