@@ -1,7 +1,7 @@
 body, html {
     width: 100%;
     height: 100%;
-    font-size: 200%; /* Augmente la taille du texte de base */
+    font-size: 150%; /* Augmente la taille de base du texte de 1,5 fois */
 }
 
 .grille {
@@ -25,18 +25,18 @@ body, html {
     grid-template-rows: 100%;
     grid-template-areas:
         "darquest wow fallout knapsak moncegep kb2 montp1";
-    font-size: 2em; /* Augmenter la taille du texte dans la grille de navigation */
+    font-size: 1.5em; /* Augmente la taille du texte dans la grille de navigation */
 }
 
 #darquest, #wow, #fallout, #knapsak, #moncegep, #kb2, #montp1 {
-    font-size: 2em; /* Augmenter la taille du texte dans ces éléments */
+    font-size: 1.5em; /* Augmente la taille du texte dans ces éléments */
 }
 
 header {
     grid-area: header;
     background-color: black;
     color: white;
-    font-size: 2em; /* Augmenter la taille du texte dans l'entête */
+    font-size: 1.5em; /* Augmente la taille du texte dans l'entête */
 }
 
 main {
@@ -44,14 +44,14 @@ main {
     background-color: #F5F5F5;
     overflow-y: auto;
     color: white;
-    font-size: 2em; /* Augmenter la taille du texte dans le main */
+    font-size: 1.5em; /* Augmente la taille du texte dans le main */
 }
 
 footer {
     grid-area: footer;
     background-color: grey;
     color: white;
-    font-size: 2em; /* Augmenter la taille du texte dans le footer */
+    font-size: 1.5em; /* Augmente la taille du texte dans le footer */
 }
 
 aside {
@@ -59,21 +59,21 @@ aside {
     background-color: #33BFFF;
     color: white;
     overflow-y: auto;
-    font-size: 2em; /* Augmenter la taille du texte dans l'aside */
+    font-size: 1.5em; /* Augmente la taille du texte dans l'aside */
 }
 
 .h1 {
     color: black;
-    font-size: 2em; /* Augmenter la taille du texte du titre */
+    font-size: 1.5em; /* Augmenter la taille du texte du titre */
     padding-top: 0%;
     padding-left: 10px;
     margin-top: 0%;
 }
 
 .image {
-    max-width: 640px;
+    max-width: 480px;
     margin: auto;
-    max-height: 320px; /* Augmenter la taille des images */
+    max-height: 240px; /* Augmenter la taille des images de façon modérée */
 }
 
 .figure {
@@ -89,25 +89,25 @@ aside {
 
 figcaption {
     color: black;
-    font-size: 2em; /* Augmenter la taille du texte dans les légendes des images */
+    font-size: 1.5em; /* Augmenter la taille du texte dans les légendes des images */
 }
 
 article {
-    font-size: 2em; /* Augmenter la taille du texte dans les articles */
+    font-size: 1.5em; /* Augmenter la taille du texte dans les articles */
     font-style: inherit;
     color: black;
     margin-top: 1em;
 }
 
 #articlep {
-    font-size: 2em; /* Augmenter la taille du texte dans l'article spécifique */
+    font-size: 1.5em; /* Augmenter la taille du texte dans l'article spécifique */
     font-weight: 540;
     transform: scale(1, 1.4);
 }
 
 h2 {
     color: black;
-    font-size: 2em; /* Augmenter la taille du texte des sous-titres */
+    font-size: 1.5em; /* Augmenter la taille du texte des sous-titres */
     margin: 0px;
     padding: 0.5em;
 }
@@ -115,7 +115,7 @@ h2 {
 ul, li {
     color: black;
     list-style-type: disc;
-    font-size: 2em; /* Augmenter la taille du texte dans les listes */
+    font-size: 1.5em; /* Augmenter la taille du texte dans les listes */
 }
 
 .lienchangepas {
