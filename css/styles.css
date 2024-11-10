@@ -13,6 +13,8 @@ body, html {
     display: grid;
     background-color: grey;
     grid-template-rows: 50px 400px 50px;
+    width:100%;
+    height: 100%;
     grid-template-areas:
             "header header"
             "main aside"
