@@ -96,7 +96,7 @@ footer{grid-area:footer;
 background-color:grey;
 color: white;}
 aside{grid-area:aside;
-    background-color:#33BFFF;
+    background-color:yellow;
     color: white;
     overflow-y: auto;
 
@@ -148,6 +148,7 @@ ul,li{
 color: black;
 list-style-type: disc;
 font-size:11px;
+padding-right: 6px;
 
 }
 .lienchangepas {
