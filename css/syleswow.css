@@ -160,9 +160,10 @@ padding-right: 6px;
     color: inherit; 
 }
 
-.lienchangepas:hover,
-.lienchangepas:focus {
-    color: inherit; 
+.lienchangepas:hover
+ {
+  
+    color:blue;
 }
 footer{
    

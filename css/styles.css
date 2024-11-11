@@ -159,9 +159,10 @@ font-size:11px;
     color: inherit; 
 }
 
-.lienchangepas:hover,
-.lienchangepas:focus {
+.lienchangepas:hover
+ {
     color: inherit; 
+    color: blue;
 }
 footer{
    
