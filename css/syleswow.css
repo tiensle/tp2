@@ -1,174 +1,209 @@
-body, html {
-    
+body,
+html {
+
     width: 100%;
     height: 100%;
-  }
+}
 
 
 
 
 
 
-.grille{grid-template-columns: 70% 30%;
+.grille {
+    grid-template-columns: 70% 30%;
     display: grid;
     background-color: grey;
     grid-template-rows: 1fr 10fr 1fr;
-    width:100%;
+    width: 100%;
     height: 100%;
     grid-template-areas:
-            "header header"
-            "main aside"
-            "footer footer";
+        "header header"
+        "main aside"
+        "footer footer";
 
 }
-.grillenav{
+
+.grillenav {
     display: grid;
     width: 100%;
     height: 100%;
     grid-template-columns: 1.8fr 1fr 1fr 8fr 2fr 1fr 1fr;
     grid-template-rows: 100%;
     grid-template-areas:
-            "darquest wow fallout knapsak moncegep kb2 montp1"
+        "darquest wow fallout knapsak moncegep kb2 montp1"
 
 
 
 }
-#darquest{
-grid-area: darquest;
-padding-left:1em;
 
-}
-#wow{
-grid-area: wow;
-}
-#fallout{
-
-grid-area: fallout;
-}
-#knapsak{
-grid-area: knapsak;
-text-align: left;
-
-}
-#moncegep{
-
-grid-area: moncegep;
-}
-#kb2{
-grid-area: kb2;
-
-
-
-}
-#montp1{
-grid-area:montp1;
-
+#darquest {
+    grid-area: darquest;
+    padding-left: 1em;
 
 }
 
-.p{
+#wow {
+    grid-area: wow;
+}
+
+#fallout {
+
+    grid-area: fallout;
+}
+
+#knapsak {
+    grid-area: knapsak;
+    text-align: left;
+
+}
+
+#moncegep {
+
+    grid-area: moncegep;
+}
+
+#kb2 {
+    grid-area: kb2;
+
+
+
+}
+
+#montp1 {
+    grid-area: montp1;
+
+
+}
+
+.p {
     font-family: inherit;
-   font-size:10.8px;
-   transform: scale(1, 1.2);
-   font-weight: inherit;
-   
-   margin: 30px,10px,0px;
-   padding-bottom: 0px;
-   padding-left:1em;
-   color: black;
-   }
-   
+    font-size: 10.8px;
+    transform: scale(1, 1.2);
+    font-weight: inherit;
+
+    margin: 30px, 10px, 0px;
+    padding-bottom: 0px;
+    padding-left: 1em;
+    color: black;
+}
 
 
 
 
 
-header{grid-area: header;
-background-color: black;
-color: white;}
 
-main{grid-area: main;
-background-color: #F5F5F5;
-overflow-y: auto;
-color: white;}
+header {
+    grid-area: header;
+    background-color: black;
+    color: white;
+}
 
-footer{grid-area:footer;
-background-color:grey;
-color: white;}
-aside{grid-area:aside;
-    background-color:yellow;
+main {
+    grid-area: main;
+    background-color: #F5F5F5;
+    overflow-y: auto;
+    color: white;
+}
+
+footer {
+    grid-area: footer;
+    background-color: grey;
+    color: white;
+}
+
+aside {
+    grid-area: aside;
+    background-color: yellow;
     color: white;
     overflow-y: auto;
 
 
 }
-.h1{
 
-    color:black; font-size: 25px; padding-top: 0%; padding-left:10px; margin-top: 0%;
+.h1 {
+
+    color: black;
+    font-size: 25px;
+    padding-top: 0%;
+    padding-left: 10px;
+    margin-top: 0%;
 }
-.image{
- max-width:320px;
- margin:auto;
-max-height:160px;
+
+.image {
+    max-width: 320px;
+    margin: auto;
+    max-height: 160px;
 }
-.figure{background-color: white;
+
+.figure {
+    background-color: white;
     border: solid black 1px;
     padding: 10px;
-  height:fit-content;
-    float:left;
-    margin-left:1em;
+    height: fit-content;
+    float: left;
+    margin-left: 1em;
     margin-top: 0px;
-    margin-right:1em;
+    margin-right: 1em;
 
 }
-figcaption{
 
-    color:black;
+figcaption {
+
+    color: black;
 }
-article{
-font-size: inherit;
-font-style: inherit;
-color:black;
-margin-top:1em;
 
+article {
+    font-size: inherit;
+    font-style: inherit;
+    color: black;
+    margin-top: 1em;
 
-}
-#articlep{
-font-size: 10px;
-font-weight:540;
-transform: scale(1,1.4);
 
 }
-h2{color: black;
-    font-size:large;
-    margin:0px;
-    padding:0.5em
-}
-ul,li{
-color: black;
-list-style-type: disc;
-font-size:11px;
-padding-right: 6px;
+
+#articlep {
+    font-size: 10px;
+    font-weight: 540;
+    transform: scale(1, 1.4);
 
 }
+
+h2 {
+    color: black;
+    font-size: large;
+    margin: 0px;
+    padding: 0.5em
+}
+
+ul,
+li {
+    color: black;
+    list-style-type: disc;
+    font-size: 11px;
+    padding-right: 6px;
+
+}
+
 .lienchangepas {
-    color: inherit; 
-    text-decoration: none; 
+    color: inherit;
+    text-decoration: none;
 }
 
-.lienchangepas:visited{
-    color: inherit; 
+.lienchangepas:visited {
+    color: inherit;
 }
 
-.lienchangepas:hover{
-    color:blue;
+.lienchangepas:hover {
+    color: blue;
 }
-footer{
-   
-text-align:right;
-color:black;
-padding:10px;
-font-size:xx-small;
-font-weight: bold;
- font-family:'Roboto', sans-serif ;
+
+footer {
+
+    text-align: right;
+    color: black;
+    padding: 10px;
+    font-size: xx-small;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
